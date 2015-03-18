@@ -30,10 +30,12 @@ docker stop appli && docker rm appli
 eventuellement faire : 
 
 ```
-boot2docker ssh -L 8080:localhost:80
+boot2docker ssh -L 8099:localhost:8099
 
 docker exec appli bash -c "chown -R www-data:www-data /var/www"
 ```
+
+
 Conenxion en tant que www-data :
 
 ```
