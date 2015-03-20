@@ -1,6 +1,8 @@
 {
     "name": "lp/imash",
     "description": "appli demo construire son framework cours lpimash",
-    "require": {}
+    "require": {
+		"symfony/http-foundation": "2.3.*@dev"
+	}
 }
 
